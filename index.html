@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch a Sketch</title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+
+  <body>
+    <section class="selectContainer">
+      <div>
+        <label for="height">Height:</label>
+        <input type="range" name="height" id="height" min="16" max="100" value="16">
+        <label for="height" id="heightValue">32</label>
+      </div>
+
+      <div>
+        <label for="width">Width:</label>
+        <input type="range" name="width" id="width" min="16" max="100" value="16">
+        <label for="width" id="widthValue">32</label>
+      </div>
+    </section>
+
+    <section>
+      <div class="container"></div>
+    </section>
+
+    <script src="./script.js" defer></script>
+  </body>
+</html>

@@ -1,0 +1,53 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html, body {
+  min-height: 100vh;
+  background-color: #1b1b1b;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 32rem;
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+
+.square {
+  border: 0.1px dotted #464646 ;
+  opacity: 0.1;
+}
+
+.hovered {
+  background-color: #70c9a9;
+}
+
+.selectContainer {
+  gap: 1rem;
+  accent-color: #70c9a9;
+
+  margin: 1rem 0;
+}
+
+.selectContainer div {
+  display: flex;
+  align-items: center;
+
+  gap: 1rem;
+}
